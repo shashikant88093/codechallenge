@@ -8,7 +8,7 @@ int main()
     cin >> a;
     for (int i = 0; i < a; i++)
     {
-        str = "hello";
+        str = "Hello";
         cout << str<<endl;
     }
 
