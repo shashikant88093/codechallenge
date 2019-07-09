@@ -5,6 +5,7 @@ int main()
 {
     string str;
     int a;
+    intd;
     cin >> a;
     for (int i = 0; i < a; i++)
     {
