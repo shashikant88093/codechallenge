@@ -5,7 +5,6 @@ int main()
 {
    int num, reverse = 0, remainder, temp;
   
-   cout << "Enter the number: ";
    cin >> num;
 
    temp = num; 
