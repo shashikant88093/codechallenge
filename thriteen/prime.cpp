@@ -15,6 +15,7 @@ int main()
         }
         if(flag==0){
             cout<<"yes";
+            break;
         }
         
     }
