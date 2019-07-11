@@ -3,22 +3,22 @@ using namespace std;
 
 int main()
 {
-    int i, num,flag=0;
+    int i, num, count = 0;
     cin >> num;
-    for (i = 2; i <= num/2; i++)
+    for (i = 1; i <= num; i++)
     {
-        if (num%i==0)
+        if (num % i == 0)
         {
-            cout << "no";
-            flag=1;
-            break;
+            count++;
         }
-        if(flag==0){
-            cout<<"yes";
-            break;
-        }
-        
     }
-
+    if (count == 2)
+    {
+        cout << "yes";
+    }
+    else
+    {
+        cout << "no";
+    }
     return 0;
 }
