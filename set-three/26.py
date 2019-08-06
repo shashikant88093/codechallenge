@@ -1,3 +1,4 @@
+n = input()
 num = input().split()
 num = [int(v) for v in num]
 num.sort()
